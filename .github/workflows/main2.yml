@@ -1,0 +1,9 @@
+name: Run rspec-tests
+on: [workflow_dispatch, push]
+jobs:
+  job01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Setting up the environment"
+        run: |
+          echo "Setting the test-environment up."
