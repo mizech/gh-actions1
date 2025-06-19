@@ -8,6 +8,6 @@ describe 'Basic-Math' do
   end
 
   it 'Subtract numbers' do
-    expect(9 - 2).to be_equal(7)
+    expect(9 - 2).to be_equal(8)
   end
 end
